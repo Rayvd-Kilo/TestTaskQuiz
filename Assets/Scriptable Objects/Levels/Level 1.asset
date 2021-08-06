@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6929ee80f3c36a24bb3cda9fb36efc49, type: 3}
+  m_Name: Level 1
+  m_EditorClassIdentifier: 
+  _levels:
+  - _difficulty: 0
+    _cellsDataSet: {fileID: 11400000, guid: e98f6bdb9bda82b4692921eccb14b64b, type: 2}
+  - _difficulty: 0
+    _cellsDataSet: {fileID: 11400000, guid: 1a932f1e2861b6240bcdcfc58cefb84f, type: 2}
+  - _difficulty: 1
+    _cellsDataSet: {fileID: 11400000, guid: e98f6bdb9bda82b4692921eccb14b64b, type: 2}
+  - _difficulty: 1
+    _cellsDataSet: {fileID: 11400000, guid: 1a932f1e2861b6240bcdcfc58cefb84f, type: 2}
+  - _difficulty: 2
+    _cellsDataSet: {fileID: 11400000, guid: e98f6bdb9bda82b4692921eccb14b64b, type: 2}
+  - _difficulty: 2
+    _cellsDataSet: {fileID: 11400000, guid: 1a932f1e2861b6240bcdcfc58cefb84f, type: 2}
