@@ -6,8 +6,10 @@ public class GridCreator : MonoBehaviour
     [SerializeField] private int _columns;
     [SerializeField] private float _cellSize;
     [SerializeField] private CellSegment _cellPrefab;
+
     private GridHandler _gridHandler;
     private GridData _gridData;
+
     private int _levelCount = 0;
     private int _rows => CalculateRows();
     private void Awake()

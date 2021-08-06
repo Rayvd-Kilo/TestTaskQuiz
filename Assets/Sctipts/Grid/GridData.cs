@@ -5,8 +5,11 @@ public class GridData : MonoBehaviour
 {
     [SerializeField] private LevelData _levelData;
     [SerializeField] private QuizAnswer _quizAnswer;
+
     private GridHandler _gridHandler;
+
     private List<CellSegment> _cellSegments { get { return (List<CellSegment>)_gridHandler.Segments; } } 
+
     public LevelData LevelData { get { return _levelData; } }
 
     private void Awake()
