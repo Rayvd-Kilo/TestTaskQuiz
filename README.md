@@ -7,15 +7,15 @@
 ### Grid
 
 Динамическая таблица GameObject-ов разбитая на три компонента
--GridHandler - отвечает за сетку CellSegment-ов.
--GridData - отвечает за заполнение CellSegment-ов данными из CellData.
--GridCreator - создаёт сетку CellSegment-ов на основе уровня из LevelData.
+- GridHandler - отвечает за сетку CellSegment-ов;
+- GridData - отвечает за заполнение CellSegment-ов данными из CellData;
+- GridCreator - создаёт сетку CellSegment-ов на основе уровня из LevelData.
 
 ### DataSets
 
 Наборы данных в основе которых лежат два поля:
--Identifier
--Sprite.
+- Identifier;
+- Sprite.
 На основе этого набора данных дизайнер может создать любой набор без участия программиста.
 
 ### Levels
